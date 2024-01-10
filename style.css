@@ -1,0 +1,161 @@
+/* ... Otros estilos ... */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto en color negro */
+    min-height: 100vh; /* Al menos el 100% de la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff; /* Fondo gris oscuro para el encabezado */
+    color: #000000;
+    padding: 1em 0;
+}
+
+.info-bar {
+    display: inline-block;
+    font-family: fantasy;
+    font-size: small;
+    padding-bottom: 10px;
+    margin-left: 5%;
+
+}
+
+.menu nav{
+    text-align: center;
+    border-top: 1px solid #b6b6b6; /* Línea de 1px de color gris */
+    padding-top: 10px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: left;
+}
+.menu nav ul li:hover{
+    border-bottom: 2px solid #000;
+}
+
+.menu nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: small;
+}
+
+h1 {
+    margin: 0;
+}
+
+header h1 {
+    padding: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    color: #000000; /* Texto blanco para el título */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+header h1 a {
+    color: #000000; /* Establece el color del enlace como blanco */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
+    outline: none; /* Elimina el resaltado del enlace al hacer clic */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: background-color 0.3s ease; /* Agregamos una transición suave para el color de fondo */
+}
+
+header h1 a:hover {
+    background-color: transparent !important; /* Evita que se marque de color al pasar el mouse */
+}
+
+.main-content {
+    flex: 1; /* Hace que el contenido ocupe el espacio restante */
+    max-width: 800px;
+    border-right: 1px solid #b6b6b6; /* Línea de 1px de color gris */
+    margin-right: 27%;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom:1px ;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222; /* Fondo gris oscuro para el pie de página */
+    color: #fff;
+    margin-top: auto; /* Empuja el pie de página hacia la parte inferior */
+}
+
+.ult-new nav{
+    text-align: center;
+    border-top: 1px solid #000000; /* Línea de 1px de color gris */
+    padding-top: 10px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+    margin-top: 3px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.ult-new nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.ult-new nav ul li {
+    display: inline;
+    margin-right: 40px;
+    text-align: left;
+}
+.ult-new nav ul li a:hover{
+    color: #9c9c9c;
+}
+
+.ult-new nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+h2{
+    color: #000000; /* Establece el color del enlace como blanco */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    font-weight: lighter;
+    color: #6b6b6b;
+    margin: 1px auto;
+}
+h4{
+    margin-top: 1px;
+    font-family: fantasy;
+    font-size: small;
+    font-weight: lighter;
+    color: #222;
+}
+.articulos{
+    border-top: 1px solid #000000; /* Línea de 1px de color gris */
+    margin-top: 1px;
+    border-bottom: 1px solid #000000; /* Línea de 1px de color gris */
+    margin-right: 2%;
+    margin-left: 23px;
+}
